@@ -6,7 +6,7 @@
 
 struct SinhVien {
 	int mssv;
-	char hoTen[50];
+	char hoTen[100]; //NgocAnh
 	double diemTB;
 };
 int main(){
@@ -60,5 +60,6 @@ printf("Diem TB: %f\n",Tb);
 printf("Diem trung binh cao nhat la: %f\n",max);
 printf("Diem tb cao nhat la cua %s", arr[flag].hoTen); 
 	} 
+
 
 
