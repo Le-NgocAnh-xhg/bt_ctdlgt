@@ -37,7 +37,7 @@ double diem=0;
 printf("Hay nhap so luong sinh vien:");
 scanf("%d", &N);
 for(i=0; i<N; i++){
-	printf("hay nhap ho so sinh vien [%d]:\n", i);
+	printf("hay nhap ho so sinh vien [%d]:\n", i); // commit NgocAnh
     printf("nhap mssv:\n");
     scanf("%d", &arr[i].mssv);
     printf("nhap ho ten:");
@@ -58,6 +58,7 @@ double Tb;
 Tb=diem/N;
 printf("Diem TB: %f\n",Tb);
 printf("Diem trung binh cao nhat la: %f\n",max);
-printf("Diem tb cao nhat la cua %s", arr[flag].hoTen);
+printf("Diem tb cao nhat la cua %s", arr[flag].hoTen); 
 	} 
+
 
