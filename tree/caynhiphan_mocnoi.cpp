@@ -1,3 +1,4 @@
+// bai tap tuan 14
 #include<iostream>
 #include<string>
 using namespace std;
